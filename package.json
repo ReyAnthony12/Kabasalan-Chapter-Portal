@@ -1,0 +1,7 @@
+{
+  "name": "kabasalan-chapter-portal",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test tests/*.test.mjs", "check": "node --check src/scripts/portal-ui.js && node --check src/scripts/supabase-runtime.js", "build": "node scripts/build.mjs" },
+  "devDependencies": { "@electric-sql/pglite": "0.5.15", "happy-dom": "21.0.4" }
+}
